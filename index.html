@@ -96,6 +96,20 @@
   		background-image: url('cursors/eastWestResizeCursor.png');
   	}
   	
+  	#grab {
+  	  cursor: -moz-grab; 
+  	  cursor: -webkit-grab; 
+  		cursor: grab;
+  		background-image: url('cursors/openhand.png');
+  	}
+  	
+  	#grabbing {
+  	  cursor: -moz-grabbing; 
+  	  cursor: -webkit-grabbing; 
+  	  cursor: grabbing;
+  	  background-image: url('cursors/closedhand.png');
+  	}
+  	
   	#help {
   		cursor: help;
   		background-image: url('cursors/help.png');
@@ -200,6 +214,18 @@
   		cursor: wait;
   		background-image: url('cursors/progressCursor.png');
   	}
+  	
+  	#zoom-in {
+  		cursor: -webkit-zoom-in;
+  		cursor: zoom-in;
+  		background-image: url('cursors/zoomInCursor.png');
+  	}
+  	
+  	#zoom-out {
+  		cursor: -webkit-zoom-out;
+  		cursor: zoom-out;
+  		background-image: url('cursors/zoomOutCursor.png');
+  	}
   </style>
 </head>
 
@@ -241,6 +267,12 @@
 	<div id="nesw-resize"><p>nesw-resize</p></div>
 	<div id="ew-resize"><p>ew-resize</p></div>
 	<div id="nwse-resize"><p>nwse-resize</p></div>
+	
+	<div id="zoom-in"><p>-webkit-zoom-in<br>zoom-in</p></div>
+	<div id="zoom-out"><p>-webkit-zoom-out<br>zoom-out</p></div>
+
+	<div id="grab"><p>-moz-grab<br>-webkit-grab<br>grab</p></div>
+	<div id="grabbing"><p>-moz-grabbing<br>-webkit-grabbing<br>grabbing</p></div>
 	
 	<script type="text/javascript" src="http://include.reinvigorate.net/re_.js"></script>
 	<script type="text/javascript">
